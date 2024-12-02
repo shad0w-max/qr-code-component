@@ -23,3 +23,17 @@ body {
     background-color: hsl(0, 0%, 100%);
     border-radius: 20px;
 }
+
+.img-wrapper {
+    width: 288px;
+    height: 288px;
+    padding: 16px;
+    border-radius: 10px;
+}
+
+.img-wrapper img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
