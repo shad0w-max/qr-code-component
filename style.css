@@ -37,3 +37,24 @@ body {
     object-fit: cover;
     border-radius: 10px;
 }
+
+.text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 17px;
+    align-items: center;
+    padding: 0 30px 40px 30px; 
+    text-align: center;
+}
+
+.text h3 {
+    font-weight: 700;
+    color: hsl(218, 44%, 22%);
+}
+
+.text p {
+    font-weight: 300;
+    color: hsl(216, 15%, 48%);
+    font-size: 14px;
+}
